@@ -19,4 +19,4 @@ RUN conda install picard=2.0.1
 
 WORKDIR /data/
 
-CMD ["picard"]
+ENTRYPOINT ["picard"]
