@@ -18,5 +18,6 @@ MAINTAINER Andrew Wong <nderoo.wong@gmail.com>
 RUN conda install picard=2.0.1
 
 WORKDIR /data/
+USER root
 
 ENTRYPOINT ["picard"]
